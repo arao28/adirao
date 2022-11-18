@@ -15,8 +15,16 @@ header{
   text-align: center;
   color: #FFF5E2;
   font-size: 50px;
-  font-family: "Recoleta-Bold"
+  font-family: "Recoleta-Bold";
+  text-decoration: none;
 
+}
+
+a {text-align: center;
+text-decoration: none;
+color: #FFF5E2;
+font-size: 50px;
+font-family: "Recoleta-Bold";
 }
 
 section {
@@ -51,7 +59,7 @@ img {
   max-height: 100%;
   display:inline-block;
   opacity: 0;
-  transition: 1.5s ease;
+  transition: 1s ease;
   border-radius: 20%;
 }
 
