@@ -1,0 +1,120 @@
+p {
+  color: green;
+}
+
+@font-face {
+    font-family: 'Recoleta-Bold';
+    src: url('./Recoleta/Recoleta-Bold.ttf')  format('truetype');
+}
+body{
+  background-color: #FFD991
+  /*#F9BA70*/
+}
+
+header{
+  text-align: center;
+  color: #FFF5E2;
+  font-size: 50px;
+  font-family: "Recoleta-Bold"
+
+}
+
+section {
+    max-width:50%;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: auto;
+     text-align: center;
+}
+
+img {
+    border-radius: 20%;
+    max-width:100%;
+    display:inline-block;
+}
+
+.container {
+  position: relative;
+  width: 30%;
+  display:inline-block;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width:100%;
+  max-height: 100%;
+  display:inline-block;
+  opacity: 0;
+  transition: 1.5s ease;
+  border-radius: 20%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+.ribbon {
+  z-index: -1;
+  border-left: 99px solid clear;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 20%;
+  right: 0
+  }
+.vertical2 {
+  border-left: 66px solid #ffc425;
+  height: 20%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 20%;
+  right: 0;
+  z-index: -1;
+  transition: 1.25s
+  }
+
+.vertical3 {
+  border-left:33px solid #00aedb;
+  height: 20%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 20%;
+  right: 0;
+  z-index: -1;
+  transition: 1s
+
+  }
+body{
+
+}
+  .vertical {
+    border-left: 99px solid red;
+    height: 20%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+    z-index: -1;
+    transition: 1.5s
+    }
+
+  body:hover .vertical{
+        height: 100%
+    }
+  body:hover .vertical2{
+        height: 100%
+    }
+  body:hover .vertical3{
+        height: 100%
+    }
