@@ -164,3 +164,18 @@ img {
 .aboutimg {
   text-align: center;
 }
+
+.picture {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.label {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  display: block;
+  margin-left: 30%;
+}
