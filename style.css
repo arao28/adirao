@@ -1,14 +1,9 @@
-p {
-  color: green;
-}
-
 @font-face {
     font-family: 'Recoleta-Bold';
     src: url('./Recoleta/Recoleta-Bold.ttf')  format('truetype');
 }
 body{
   background-color: #FFD991
-  /*#F9BA70*/
 }
 
 header{
@@ -19,30 +14,30 @@ header{
 
 }
 
-.name {text-align: center;
-text-decoration: none;
+a {
+  text-align: center;
+  text-decoration: none;
 }
 
 section {
-    max-width:50%;
-    display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: auto;
-     text-align: center;
+  max-width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
 }
 
 img {
-    border-radius: 20%;
-    max-width:100%;
-    display:inline-block;
+  border-radius: 20%;
+  max-width:100%;
+  display:inline-block;
 }
 
 .container {
   position: relative;
   width: 30%;
   display:inline-block;
-
 }
 
 .overlay {
@@ -63,7 +58,6 @@ img {
   opacity: 1;
 }
 
-
 @keyframes slideIn {
          0% {
            height: 0%;
@@ -83,32 +77,6 @@ img {
   left: 20%;
   right: 0
   }
-.vertical2 {
-  border-left: 66px solid #ffc425;
-  position: fixed;
-  animation-name: slideIn;
-  animation-duration: 1.5s;
-  top: 0;
-  bottom: 0;
-  left: 20%;
-  right: 0;
-  z-index: -1;
-  transition: 1.25s
-  }
-
-.vertical3 {
-  border-left:33px solid #00aedb;
-  position: fixed;
-  animation-name: slideIn;
-  animation-duration: 1s;
-  top: 0;
-  bottom: 0;
-  left: 20%;
-  right: 0;
-  z-index: -1;
-  }
-
-
 
   .vertical {
 
@@ -118,18 +86,32 @@ img {
     animation-duration: 2s;
     top: 0;
     bottom: 0;
-    left: 20%;
+    left: 15%;
     right: 0;
     z-index: -1;
-    }
+  }
 
-/*
-    body:hover .vertical{
-          height: 100%
-      }
-    body:hover .vertical2{
-          height: 100%
-      }
-    body:hover .vertical3{
-          height: 100%
-      } */
+.vertical2 {
+  border-left: 66px solid #ffc425;
+  position: fixed;
+  animation-name: slideIn;
+  animation-duration: 1.5s;
+  top: 0;
+  bottom: 0;
+  left: 15%;
+  right: 0;
+  z-index: -1;
+  transition: 1.25s
+}
+
+.vertical3 {
+  border-left:33px solid #00aedb;
+  position: fixed;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  top: 0;
+  bottom: 0;
+  left: 15%;
+  right: 0;
+  z-index: -1;
+}
