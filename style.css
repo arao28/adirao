@@ -2,8 +2,15 @@
     font-family: 'Recoleta-Bold';
     src: url('./Recoleta/Recoleta-Bold.ttf')  format('truetype');
 }
+
+@font-face {
+    font-family: 'Recoleta-Regular';
+    src: url('./Recoleta/Recoleta-Regular.ttf')  format('truetype');
+}
+
+
 body{
-  background-color: #FFD991
+  background-color: #FFD991;
 }
 
 header{
@@ -14,9 +21,21 @@ header{
 
 }
 
+h1 {
+  text-align: center;
+  font-size: 30px;
+ font-family: Recoleta-Bold;
+ color: #b57700
+}
+
 a {
   text-align: center;
   text-decoration: none;
+}
+
+p {
+  font-family: Recoleta-Regular;
+  font-size: 18px;
 }
 
 section {
@@ -114,4 +133,34 @@ img {
   left: 15%;
   right: 0;
   z-index: -1;
+}
+
+.about {
+  width: 50%;
+  margin: auto;
+}
+
+.bodytext {
+  text-align: justify;
+}
+
+.special {
+  width: 30%;
+  margin: auto;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.quoteauthor {
+  text-align: right;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.aboutimg {
+  text-align: center;
 }
