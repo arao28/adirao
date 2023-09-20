@@ -184,3 +184,9 @@ img {
   display: block;
   text-align: center;
 }
+
+.pdf {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
