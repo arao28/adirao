@@ -19,21 +19,32 @@
 }
 
 body{
-  background-color: #FFD991;
+  background-color: #0000001f;
 }
 
 header{
-  text-align: center;
   color: #FFF5E2;
-  font-size: 50px;
+  font-size: 200px;
   font-family: "Recoleta-Bold";
+
+}
+header1{
+  color: #FFF5E2;
+  font-size: 75px;
+  font-family: "Recoleta-Bold";
+
 }
 
 h1 {
   text-align: center;
   font-size: 30px;
  font-family: Recoleta-Bold;
- color: #b57700
+ color: #FFF5E2;
+}
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 a {
@@ -44,6 +55,42 @@ a {
 p {
   font-family: Recoleta-Regular;
   font-size: 18px;
+}
+
+z {
+  font-family: Recoleta-Bold;
+  color: #FFF5E2;
+  font-size: 150px;
+  position: fixed;
+  bottom: 4%;
+  left: 4%;
+}
+z1 {
+  font-family: Recoleta-Bold;
+  color: #FFF5E2;
+  font-size: 75px;
+  position: fixed;
+  bottom: 4%;
+  left: 4%;
+}
+
+z2 {
+  font-family: Recoleta-Bold;
+  color: #00aedb;
+  font-size: 60px;
+  position: fixed;
+  bottom: 16%;
+  left: 2%;
+}
+
+z3 {
+  font-family: Recoleta;
+  color: #00aedb;
+  font-size: 25px;
+  position: fixed;
+  bottom: 5%;
+  left: 2%;
+  right: 75%;
 }
 
 section {
@@ -61,12 +108,19 @@ img {
   display:inline-block;
 }
 
+
 .container {
   position: relative;
   width: 30%;
   display:inline-block;
 }
 
+.container1 {
+  position: relative;
+  left: 25%;
+  width: 70%;
+  
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -85,63 +139,55 @@ img {
   opacity: 1;
 }
 
-@keyframes slideIn {
-         0% {
-           height: 0%;
-         }
-         100% {
-           height: 100%;
-         }
-       }
 
-.ribbon {
-  z-index: -1;
-  border-left: 99px solid clear;
-  height: 100%;
+@keyframes slideIn1 {
+  
+      0%{
+       width: 33px;
+       height: 0px;
+      }
+      100%{
+      width: 33px;
+      height: 99px;
+      }
+}
+
+.vertical {
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 20%;
-  right: 0
-  }
-
-  .vertical {
-
-    border-left: 99px solid red;
-    position: fixed;
-    animation-name: slideIn;
-    animation-duration: 2s;
-    top: 0;
-    bottom: 0;
-    left: 15%;
-    right: 0;
-    z-index: -1;
-  }
+  background-color: #00aedb;
+  left: 50%;
+  top: 50%;
+  transform: translate(-150%,-50%);
+  animation-name: slideIn1;
+  animation-duration: 1s;
+  width: 33px;
+  height: 99px;
+}
 
 .vertical2 {
-  border-left: 66px solid #ffc425;
   position: fixed;
-  animation-name: slideIn;
-  animation-duration: 1.5s;
-  top: 0;
-  bottom: 0;
-  left: 15%;
-  right: 0;
-  z-index: -1;
-  transition: 1.25s
-}
-
-.vertical3 {
-  border-left:33px solid #00aedb;
-  position: fixed;
-  animation-name: slideIn;
+  background-color: #ffc425;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: slideIn1;
   animation-duration: 1s;
-  top: 0;
-  bottom: 0;
-  left: 15%;
-  right: 0;
-  z-index: -1;
-}
+  width: 33px;
+  height: 99px;
+  }
+
+  .vertical3 {
+    position: fixed;
+    background-color: red;
+    left: 50%;
+    top: 50%;
+    transform: translate(50%,-50%);
+    animation-name: slideIn1;
+    animation-duration: 1s;
+    width: 33px;
+    height: 99px;
+  }
+
 
 .about {
   width: 50%;
@@ -174,18 +220,84 @@ img {
 }
 
 .picture {
-  width: 35%;
+  position: fixed;
+  width: 50%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
 }
 
 .label {
   display: block;
-  text-align: center;
+  margin: auto;
+  position:fixed;
+  color:white;
+  bottom: 10%;
 }
 
-.pdf {
-    width: 50%;
-    margin: auto;
+.name{
+  position: absolute;
+  bottom: 0;
+  left: 3%;
+  color: black;
+  font-size: 50px;
+  font-family: "Recoleta-Bold";
 }
+
+.centerbox{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@keyframes slideIn {
+  0% {
+    height: 33px;
+    width: 0px;
+  }
+  100% {
+    height: 33px;
+    width: 200px;
+  }
+}
+
+.horizontal {
+  position: fixed;
+  background-color: #00aedb;
+  color: #e0e0e0;
+  line-height: 33px;
+  font-family: "Recoleta-Bold";
+  overflow: clip;
+  text-wrap: nowrap;
+  transform: translate(-150%,-50%);
+  animation-name: slideIn;
+  animation-duration: 1s;
+  width: 200px;
+  height: 33px;
+}
+
+.horizontal2 {
+  position: fixed;
+  background-color: #ffc425;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: slideIn;
+  animation-duration: 1s;
+  width: 200px;
+  height: 33px;
+  }
+
+  .horizontal3 {
+    position: fixed;
+    background-color: red;
+    left: 50%;
+    top: 50%;
+    transform: translate(50%,-50%);
+    animation-name: slideIn;
+    animation-duration: 1s;
+    width: 200px;
+    height: 33px;
+  }
