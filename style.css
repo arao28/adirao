@@ -159,7 +159,7 @@ img {
   top: 50%;
   transform: translate(-150%,-50%);
   animation-name: slideIn1;
-  animation-duration: 1s;
+  animation-duration: 2s;
   width: 33px;
   height: 99px;
 }
@@ -171,7 +171,7 @@ img {
   top: 50%;
   transform: translate(-50%,-50%);
   animation-name: slideIn1;
-  animation-duration: 1s;
+  animation-duration: 2s;
   width: 33px;
   height: 99px;
   }
@@ -183,7 +183,7 @@ img {
     top: 50%;
     transform: translate(50%,-50%);
     animation-name: slideIn1;
-    animation-duration: 1s;
+    animation-duration: 2s;
     width: 33px;
     height: 99px;
   }
