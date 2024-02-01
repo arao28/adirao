@@ -159,7 +159,7 @@ img {
   top: 50%;
   transform: translate(-150%,-50%);
   animation-name: slideIn1;
-  animation-duration: 1s;
+  animation-duration: 3s;
   width: 33px;
   height: 99px;
 }
@@ -171,7 +171,7 @@ img {
   top: 50%;
   transform: translate(-50%,-50%);
   animation-name: slideIn1;
-  animation-duration: 1s;
+  animation-duration: 3s;
   width: 33px;
   height: 99px;
   }
@@ -183,7 +183,7 @@ img {
     top: 50%;
     transform: translate(50%,-50%);
     animation-name: slideIn1;
-    animation-duration: 1s;
+    animation-duration: 3s;
     width: 33px;
     height: 99px;
   }
@@ -207,6 +207,14 @@ img {
   text-align: center;
   font-style: italic;
   font-size: 20px;
+}
+
+.poem {
+  text-align: left;
+  font-style: italic;
+  font-size: 18px;
+  padding: 0;
+  margin: 2px;
 }
 
 .quoteauthor {
