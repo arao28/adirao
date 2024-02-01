@@ -159,7 +159,7 @@ img {
   top: 50%;
   transform: translate(-150%,-50%);
   animation-name: slideIn1;
-  animation-duration: 2s;
+  animation-duration: 1s;
   width: 33px;
   height: 99px;
 }
@@ -171,7 +171,7 @@ img {
   top: 50%;
   transform: translate(-50%,-50%);
   animation-name: slideIn1;
-  animation-duration: 2s;
+  animation-duration: 1s;
   width: 33px;
   height: 99px;
   }
@@ -183,7 +183,7 @@ img {
     top: 50%;
     transform: translate(50%,-50%);
     animation-name: slideIn1;
-    animation-duration: 2s;
+    animation-duration: 1s;
     width: 33px;
     height: 99px;
   }
@@ -281,8 +281,11 @@ img {
 .horizontal2 {
   position: fixed;
   background-color: #ffc425;
-  left: 50%;
-  top: 50%;
+  color: #e0e0e0;
+  line-height: 33px;
+  font-family: "Recoleta-Bold";
+  overflow: clip;
+  text-wrap: nowrap;
   transform: translate(-50%,-50%);
   animation-name: slideIn;
   animation-duration: 1s;
@@ -293,8 +296,11 @@ img {
   .horizontal3 {
     position: fixed;
     background-color: red;
-    left: 50%;
-    top: 50%;
+    color: #e0e0e0;
+    line-height: 33px;
+    font-family: "Recoleta-Bold";
+    overflow: clip;
+    text-wrap: nowrap;
     transform: translate(50%,-50%);
     animation-name: slideIn;
     animation-duration: 1s;
