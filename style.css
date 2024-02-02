@@ -19,7 +19,7 @@
 }
 
 body{
-  background-color: #0000001f;
+  background-color: #b1a99d;
 }
 
 header{
@@ -57,6 +57,11 @@ p {
   font-size: 18px;
 }
 
+li{
+  font-family: Recoleta-Regular;
+  font-size: 18px;
+}
+
 z {
   font-family: Recoleta-Bold;
   color: #FFF5E2;
@@ -76,19 +81,19 @@ z1 {
 
 z2 {
   font-family: Recoleta-Bold;
-  color: #00aedb;
+  color: #FFF5E2;
   font-size: 60px;
   position: fixed;
-  bottom: 16%;
+  top: 5%;
   left: 2%;
 }
 
 z3 {
   font-family: Recoleta;
-  color: #00aedb;
+  color: #FFF5E2;
   font-size: 25px;
   position: fixed;
-  bottom: 5%;
+  top: 15%;
   left: 2%;
   right: 75%;
 }
@@ -198,6 +203,15 @@ img {
   text-align: justify;
 }
 
+.foot {
+  text-align: justify;
+  font-size: small;
+}
+
+sup {
+font-size: x-small;  
+}
+
 .special {
   width: 30%;
   margin: auto;
@@ -284,7 +298,7 @@ img {
 .horizontal {
   position: fixed;
   background-color: #00aedb;
-  color: #e0e0e0;
+  color: #FFF5E2;
   line-height: 33px;
   font-family: "Recoleta-Bold";
   overflow: clip;
@@ -298,7 +312,7 @@ img {
 .horizontal2 {
   position: fixed;
   background-color: #ffc425;
-  color: #e0e0e0;
+  color: #FFF5E2;
   line-height: 33px;
   font-family: "Recoleta-Bold";
   overflow: clip;
@@ -312,7 +326,7 @@ img {
   .horizontal3 {
     position: fixed;
     background-color: red;
-    color: #e0e0e0;
+    color: #FFF5E2;
     line-height: 33px;
     font-family: "Recoleta-Bold";
     overflow: clip;
@@ -321,4 +335,30 @@ img {
     animation-duration: 1s;
     width: 200px;
     height: 33px;
+  }
+
+
+
+
+  
+  /* Tooltip text */
+  sup .tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: black;
+    color: #FFF5E2;
+    text-align: left;
+    font-size: small;
+    padding: 7px 10px;
+    margin: 10px;
+    border-radius: 7px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  sup:hover .tooltiptext {
+    visibility: visible;
   }
