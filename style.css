@@ -271,6 +271,16 @@ img {
   }
 }
 
+@keyframes slideIn2 {
+  0% {
+    height: 10px;
+    width: 0px;
+  }
+  100% {
+    height: 10px;
+    width: 200px;
+  }
+}
 .horizontal {
   position: fixed;
   background-color: #00aedb;
@@ -279,7 +289,6 @@ img {
   font-family: "Recoleta-Bold";
   overflow: clip;
   text-wrap: nowrap;
-  transform: translate(-150%,-50%);
   animation-name: slideIn;
   animation-duration: 1s;
   width: 200px;
@@ -294,7 +303,6 @@ img {
   font-family: "Recoleta-Bold";
   overflow: clip;
   text-wrap: nowrap;
-  transform: translate(-50%,-50%);
   animation-name: slideIn;
   animation-duration: 1s;
   width: 200px;
@@ -309,7 +317,6 @@ img {
     font-family: "Recoleta-Bold";
     overflow: clip;
     text-wrap: nowrap;
-    transform: translate(50%,-50%);
     animation-name: slideIn;
     animation-duration: 1s;
     width: 200px;
