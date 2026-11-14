@@ -299,7 +299,8 @@ font-size: x-small;
 .horizontal {
   position: fixed;
   background-color: #00aedb;
-  color: #FFF5E2;
+  /* color: #FFF5E2; */
+    color: #FFFFFF;
   line-height: 33px;
   font-family: "Recoleta-Bold";
   overflow: clip;
@@ -313,7 +314,8 @@ font-size: x-small;
 .horizontal2 {
   position: fixed;
   background-color: #ffc425;
-  color: #FFF5E2;
+  /* color: #FFF5E2; */
+    color: #FFFFFF;
   line-height: 33px;
   font-family: "Recoleta-Bold";
   overflow: clip;
@@ -327,7 +329,8 @@ font-size: x-small;
   .horizontal3 {
     position: fixed;
     background-color: red;
-    color: #FFF5E2;
+  /* color: #FFF5E2; */
+    color: #FFFFFF;
     line-height: 33px;
     font-family: "Recoleta-Bold";
     overflow: clip;
