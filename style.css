@@ -166,7 +166,8 @@ img {
 
 .vertical {
   position: fixed;
-  background-color: #00aedb;
+  /* background-color: #00aedb; */
+    background-color: #0000FF;
   left: 50%;
   top: 50%;
   transform: translate(-150%,-50%);
@@ -178,7 +179,8 @@ img {
 
 .vertical2 {
   position: fixed;
-  background-color: #ffc425;
+    /* background-color: #00aedb; */
+    background-color: #FFFF00;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
