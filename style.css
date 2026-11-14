@@ -323,7 +323,7 @@ font-size: x-small;
 .horizontal2 {
   position: fixed;
   background-color: #ffc425;
-  color: #FFc425;
+  color: #FFF5E2;
     /* color: #FFFFFF; */
   line-height: 33px;
   font-family: "Recoleta-Bold";
@@ -338,7 +338,7 @@ font-size: x-small;
   .horizontal3 {
     position: fixed;
     background-color: red;
-  color: #ff0000;
+  color: #FFF5E2;
     /* color: #FFFFFF; */
     line-height: 33px;
     font-family: "Recoleta-Bold";
