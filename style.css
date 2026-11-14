@@ -24,15 +24,16 @@ body{
 }
 
 header{
- /* color: #FFF5E2; */
-    color: #696969;
+ color: #FFF5E2;
+    /* color: #696969; */
   font-size: 200px;
   font-family: "Recoleta-Bold";
 
 }
 header1{
- /* color: #FFF5E2; */
-    color: #696969;  font-size: 75px;
+ color: #FFF5E2;
+    /* color: #696969;  */
+    font-size: 75px;
   font-family: "Recoleta-Bold";
 
 }
@@ -41,8 +42,8 @@ h1 {
   text-align: center;
   font-size: 30px;
  font-family: Recoleta-Bold;
-  /* color: #FFF5E2; */
-    color: #696969;
+  color: #FFF5E2;
+    /* color: #696969; */
 }
 div.fixed {
   position: fixed;
@@ -67,8 +68,8 @@ li{
 
 z {
   font-family: Recoleta-Bold;
-  /* color: #FFF5E2; */
-    color: #696969;
+  color: #FFF5E2;
+    /* color: #696969; */
     font-size: 150px;
   position: fixed;
   bottom: 4%;
@@ -76,8 +77,8 @@ z {
 }
 z1 {
   font-family: Recoleta-Bold;
-    /* color: #FFF5E2; */
-    color: #696969;
+    color: #FFF5E2;
+    /* color: #696969; */
   font-size: 75px;
   position: fixed;
   bottom: 4%;
@@ -86,8 +87,8 @@ z1 {
 
 z2 {
   font-family: Recoleta-Bold;
-  /* color: #FFF5E2; */
-    color: #696969;
+  color: #FFF5E2;
+    /* color: #696969; */
     font-size: 60px;
   position: fixed;
   top: 5%;
@@ -96,8 +97,8 @@ z2 {
 
 z3 {
   font-family: Recoleta;
-  /* color: #FFF5E2; */
-    color: #696969;
+  color: #FFF5E2;
+    /* color: #696969; */
     font-size: 25px;
   position: fixed;
   top: 15%;
@@ -166,8 +167,8 @@ img {
 
 .vertical {
   position: fixed;
-  /* background-color: #00aedb; */
-    background-color: #0000FF;
+  background-color: #00aedb;
+    /* background-color: #0000FF; */
   left: 50%;
   top: 50%;
   transform: translate(-150%,-50%);
@@ -179,8 +180,8 @@ img {
 
 .vertical2 {
   position: fixed;
-    /* background-color: #00aedb; */
-    background-color: #FFFF00;
+    background-color: #00aedb;
+    /* background-color: #FFFF00; */
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
